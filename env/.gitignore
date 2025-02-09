@@ -7,3 +7,16 @@ node_modules/
 # Ignorar configuraciones del sistema operativo
 .DS_Store
 Thumbs.db
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de compilación
+dist/
+build/
+
+# Ignorar archivos de configuración de editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
